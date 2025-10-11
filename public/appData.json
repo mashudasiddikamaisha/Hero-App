@@ -1,0 +1,362 @@
+[
+  {
+    "image": "https://example.com/images/app1.png",
+    "title": "TaskMaster",
+    "companyName": "Productive Inc.",
+    "id": 1,
+    "description": "A smart to-do list app that helps you stay organized and boost productivity.",
+    "size": 48,
+    "reviews": 1200,
+    "ratingAvg": 4.5,
+    "downloads": 500000,
+    "ratings": [
+      { "name": "1 star", "count": 50 },
+      { "name": "2 star", "count": 80 },
+      { "name": "3 star", "count": 120 },
+      { "name": "4 star", "count": 300 },
+      { "name": "5 star", "count": 650 }
+    ]
+  },
+  {
+    "image": "https://example.com/images/app2.png",
+    "title": "FitLife",
+    "companyName": "Wellness Pro",
+    "id": 2,
+    "description": "Personalized fitness plans, workout tracking, and diet tips in one place.",
+    "size": 65,
+    "reviews": 2200,
+    "ratingAvg": 4.7,
+    "downloads": 750000,
+    "ratings": [
+      { "name": "1 star", "count": 40 },
+      { "name": "2 star", "count": 60 },
+      { "name": "3 star", "count": 150 },
+      { "name": "4 star", "count": 500 },
+      { "name": "5 star", "count": 1450 }
+    ]
+  },
+  {
+    "image": "https://example.com/images/app3.png",
+    "title": "SnapPic",
+    "companyName": "Visual Studio",
+    "id": 3,
+    "description": "Capture and edit photos with powerful AI filters and effects.",
+    "size": 80,
+    "reviews": 5100,
+    "ratingAvg": 4.3,
+    "downloads": 1200000,
+    "ratings": [
+      { "name": "1 star", "count": 400 },
+      { "name": "2 star", "count": 350 },
+      { "name": "3 star", "count": 500 },
+      { "name": "4 star", "count": 1200 },
+      { "name": "5 star", "count": 2650 }
+    ]
+  },
+  {
+    "image": "https://example.com/images/app4.png",
+    "title": "Learnify",
+    "companyName": "EduTech Labs",
+    "id": 4,
+    "description": "Online learning platform with thousands of courses and quizzes.",
+    "size": 90,
+    "reviews": 3200,
+    "ratingAvg": 4.6,
+    "downloads": 860000,
+    "ratings": [
+      { "name": "1 star", "count": 120 },
+      { "name": "2 star", "count": 100 },
+      { "name": "3 star", "count": 300 },
+      { "name": "4 star", "count": 800 },
+      { "name": "5 star", "count": 1880 }
+    ]
+  },
+  {
+    "image": "https://example.com/images/app5.png",
+    "title": "TravelMate",
+    "companyName": "Explore Inc.",
+    "id": 5,
+    "description": "Plan your trips, discover destinations, and find the best deals.",
+    "size": 55,
+    "reviews": 1850,
+    "ratingAvg": 4.2,
+    "downloads": 450000,
+    "ratings": [
+      { "name": "1 star", "count": 200 },
+      { "name": "2 star", "count": 180 },
+      { "name": "3 star", "count": 400 },
+      { "name": "4 star", "count": 500 },
+      { "name": "5 star", "count": 570 }
+    ]
+  },
+  {
+    "image": "https://example.com/images/app6.png",
+    "title": "NoteSync",
+    "companyName": "CloudySoft",
+    "id": 6,
+    "description": "Sync your notes across all devices securely and quickly.",
+    "size": 30,
+    "reviews": 980,
+    "ratingAvg": 4.4,
+    "downloads": 300000,
+    "ratings": [
+      { "name": "1 star", "count": 50 },
+      { "name": "2 star", "count": 90 },
+      { "name": "3 star", "count": 130 },
+      { "name": "4 star", "count": 250 },
+      { "name": "5 star", "count": 460 }
+    ]
+  },
+  {
+    "image": "https://example.com/images/app7.png",
+    "title": "BudgetBuddy",
+    "companyName": "FinanceX",
+    "id": 7,
+    "description": "Track expenses, set budgets, and save more money effortlessly.",
+    "size": 40,
+    "reviews": 1500,
+    "ratingAvg": 4.1,
+    "downloads": 390000,
+    "ratings": [
+      { "name": "1 star", "count": 120 },
+      { "name": "2 star", "count": 150 },
+      { "name": "3 star", "count": 350 },
+      { "name": "4 star", "count": 400 },
+      { "name": "5 star", "count": 480 }
+    ]
+  },
+  {
+    "image": "https://example.com/images/app8.png",
+    "title": "GameZone",
+    "companyName": "PlayWorks",
+    "id": 8,
+    "description": "Discover, download, and play trending mobile games.",
+    "size": 120,
+    "reviews": 7200,
+    "ratingAvg": 4.8,
+    "downloads": 2000000,
+    "ratings": [
+      { "name": "1 star", "count": 100 },
+      { "name": "2 star", "count": 200 },
+      { "name": "3 star", "count": 600 },
+      { "name": "4 star", "count": 1500 },
+      { "name": "5 star", "count": 4800 }
+    ]
+  },
+  {
+    "image": "https://example.com/images/app9.png",
+    "title": "CalmMind",
+    "companyName": "Relax Inc.",
+    "id": 9,
+    "description": "Meditation and mindfulness sessions to reduce stress.",
+    "size": 70,
+    "reviews": 2700,
+    "ratingAvg": 4.5,
+    "downloads": 620000,
+    "ratings": [
+      { "name": "1 star", "count": 90 },
+      { "name": "2 star", "count": 110 },
+      { "name": "3 star", "count": 200 },
+      { "name": "4 star", "count": 700 },
+      { "name": "5 star", "count": 1600 }
+    ]
+  },
+  {
+    "image": "https://example.com/images/app10.png",
+    "title": "FoodEase",
+    "companyName": "Tasty Labs",
+    "id": 10,
+    "description": "Order delicious food from your favorite restaurants.",
+    "size": 85,
+    "reviews": 5800,
+    "ratingAvg": 4.6,
+    "downloads": 1500000,
+    "ratings": [
+      { "name": "1 star", "count": 320 },
+      { "name": "2 star", "count": 280 },
+      { "name": "3 star", "count": 500 },
+      { "name": "4 star", "count": 1200 },
+      { "name": "5 star", "count": 3500 }
+    ]
+  },
+  {
+    "image": "https://example.com/images/app11.png",
+    "title": "LangLearn",
+    "companyName": "Global Ed",
+    "id": 11,
+    "description": "Learn new languages with interactive lessons and quizzes.",
+    "size": 60,
+    "reviews": 3400,
+    "ratingAvg": 4.3,
+    "downloads": 890000,
+    "ratings": [
+      { "name": "1 star", "count": 250 },
+      { "name": "2 star", "count": 300 },
+      { "name": "3 star", "count": 400 },
+      { "name": "4 star", "count": 1000 },
+      { "name": "5 star", "count": 1450 }
+    ]
+  },
+  {
+    "image": "https://example.com/images/app12.png",
+    "title": "ShopSmart",
+    "companyName": "EcomX",
+    "id": 12,
+    "description": "Shop products at the best prices with exclusive deals.",
+    "size": 95,
+    "reviews": 8000,
+    "ratingAvg": 4.4,
+    "downloads": 2500000,
+    "ratings": [
+      { "name": "1 star", "count": 600 },
+      { "name": "2 star", "count": 500 },
+      { "name": "3 star", "count": 800 },
+      { "name": "4 star", "count": 1800 },
+      { "name": "5 star", "count": 4300 }
+    ]
+  },
+  {
+    "image": "https://example.com/images/app13.png",
+    "title": "HealthMate",
+    "companyName": "MediCore",
+    "id": 13,
+    "description": "Track your health stats and stay fit with daily insights.",
+    "size": 50,
+    "reviews": 2100,
+    "ratingAvg": 4.0,
+    "downloads": 410000,
+    "ratings": [
+      { "name": "1 star", "count": 200 },
+      { "name": "2 star", "count": 250 },
+      { "name": "3 star", "count": 400 },
+      { "name": "4 star", "count": 600 },
+      { "name": "5 star", "count": 650 }
+    ]
+  },
+  {
+    "image": "https://example.com/images/app14.png",
+    "title": "ReadOn",
+    "companyName": "Bookly",
+    "id": 14,
+    "description": "Access thousands of ebooks and audiobooks in one app.",
+    "size": 110,
+    "reviews": 3100,
+    "ratingAvg": 4.5,
+    "downloads": 970000,
+    "ratings": [
+      { "name": "1 star", "count": 200 },
+      { "name": "2 star", "count": 180 },
+      { "name": "3 star", "count": 400 },
+      { "name": "4 star", "count": 800 },
+      { "name": "5 star", "count": 1520 }
+    ]
+  },
+  {
+    "image": "https://example.com/images/app15.png",
+    "title": "Weatherly",
+    "companyName": "SkyTech",
+    "id": 15,
+    "description": "Accurate weather forecasts, alerts, and live radar maps.",
+    "size": 45,
+    "reviews": 2600,
+    "ratingAvg": 4.2,
+    "downloads": 680000,
+    "ratings": [
+      { "name": "1 star", "count": 180 },
+      { "name": "2 star", "count": 200 },
+      { "name": "3 star", "count": 350 },
+      { "name": "4 star", "count": 750 },
+      { "name": "5 star", "count": 1120 }
+    ]
+  },
+  {
+    "image": "https://example.com/images/app16.png",
+    "title": "QuickRide",
+    "companyName": "GoFast",
+    "id": 16,
+    "description": "Book cabs, bikes, or rideshare easily with real-time tracking.",
+    "size": 90,
+    "reviews": 4700,
+    "ratingAvg": 4.3,
+    "downloads": 1150000,
+    "ratings": [
+      { "name": "1 star", "count": 300 },
+      { "name": "2 star", "count": 320 },
+      { "name": "3 star", "count": 500 },
+      { "name": "4 star", "count": 1200 },
+      { "name": "5 star", "count": 2380 }
+    ]
+  },
+  {
+    "image": "https://example.com/images/app17.png",
+    "title": "InstaPay",
+    "companyName": "FinTechy",
+    "id": 17,
+    "description": "Secure and instant payments and money transfers.",
+    "size": 70,
+    "reviews": 3900,
+    "ratingAvg": 4.6,
+    "downloads": 1340000,
+    "ratings": [
+      { "name": "1 star", "count": 200 },
+      { "name": "2 star", "count": 180 },
+      { "name": "3 star", "count": 400 },
+      { "name": "4 star", "count": 1000 },
+      { "name": "5 star", "count": 2120 }
+    ]
+  },
+  {
+    "image": "https://example.com/images/app18.png",
+    "title": "EcoSteps",
+    "companyName": "GreenLife",
+    "id": 18,
+    "description": "Track your daily steps and contribute to environmental goals.",
+    "size": 35,
+    "reviews": 1800,
+    "ratingAvg": 4.1,
+    "downloads": 380000,
+    "ratings": [
+      { "name": "1 star", "count": 120 },
+      { "name": "2 star", "count": 140 },
+      { "name": "3 star", "count": 300 },
+      { "name": "4 star", "count": 500 },
+      { "name": "5 star", "count": 740 }
+    ]
+  },
+  {
+    "image": "https://example.com/images/app19.png",
+    "title": "PetCare",
+    "companyName": "HappyPets",
+    "id": 19,
+    "description": "Everything you need to keep your pets healthy and happy.",
+    "size": 60,
+    "reviews": 2500,
+    "ratingAvg": 4.4,
+    "downloads": 640000,
+    "ratings": [
+      { "name": "1 star", "count": 150 },
+      { "name": "2 star", "count": 200 },
+      { "name": "3 star", "count": 350 },
+      { "name": "4 star", "count": 800 },
+      { "name": "5 star", "count": 1000 }
+    ]
+  },
+  {
+    "image": "https://example.com/images/app20.png",
+    "title": "Eventify",
+    "companyName": "SocialX",
+    "id": 20,
+    "description": "Discover and join events happening around you with one click.",
+    "size": 85,
+    "reviews": 4100,
+    "ratingAvg": 4.5,
+    "downloads": 950000,
+    "ratings": [
+      { "name": "1 star", "count": 220 },
+      { "name": "2 star", "count": 260 },
+      { "name": "3 star", "count": 480 },
+      { "name": "4 star", "count": 1100 },
+      { "name": "5 star", "count": 2040 }
+    ]
+  }
+]
