@@ -51,7 +51,7 @@ const AppDetails = () => {
     })).reverse();
 
     return (
-        <div className='max-w-6xl bg-gray-100 min-h-screen mx-auto p-4 sm:p-6 lg:p-8 overflow-hidden break-words'>
+        <div className='w-full bg-gray-100 min-h-screen mx-auto p-4 sm:p-6 lg:p-8 overflow-hidden break-words'>
             <div className='flex flex-col lg:flex-row rounded-lg shadow-sm gap-6 p-6 mb-8 bg-white'>
                 <img src={app.image} alt="" className='object-cover bg-gray-200 w-80 h-80' />
                 <div className='flex-1'>
@@ -61,7 +61,7 @@ const AppDetails = () => {
                         <div className="flex flex-col items-center gap-2 ">
                             <img src={download} alt="download" className='' />
                             <p className="text-[#001931] text-[16px]">Downloads</p>
-                            <p className="font-extrabold text-[40px] text-[#001931]">{app.downloads.toLocaleString()}</p>
+                            <p className="font-extrabold text-[40px] text-[#001931]">{app.downloads.toLocaleString()}M</p>
                         </div>
                     
                         <div className="flex flex-col items-center gap-2">
@@ -73,14 +73,14 @@ const AppDetails = () => {
                         <div className="flex flex-col items-center gap-2">
                             <img src={review} alt="review" className='' />
                             <p className="text-[#001931] text-[16px]">Total Reviews</p>
-                            <p className="font-extrabold text-[40px] text-[#001931]">{app.reviews.toLocaleString()}</p>
+                            <p className="font-extrabold text-[40px] text-[#001931]">{app.reviews.toLocaleString()}K</p>
                         </div>
                     </div>
                     <button disabled={installedApp} onClick={handleInstalledApp} className={`text-white rounded-sm font-semibold text-xl px-5 py-2 transition ${installedApp ? "bg-gray-300 text-gray-700 cursor-not-allowed" : "bg-[#00D390] hover:bg-emerald-600"}`}>{installedApp ? "Installed" : `Install Now (${app.size})`} </button>
                 </div>
             </div>
 
-            <div className='bg-white rounded-lg shadow-sm mb-8 p-6'>
+            <div className='rounded-lg shadow-sm mb-8 p-6'>
                 <h3 className='font-semibold text-2xl text-[#001931]'>Ratings</h3>
                 <div className='h-60'>
                     <ResponsiveContainer className={`w-full h-full`}>
@@ -95,7 +95,7 @@ const AppDetails = () => {
                 </div>
             </div>
 
-            <div className='bg-white rounded-lg shadow-sm mb-8 p-6'>
+            <div className='rounded-lg shadow-sm mb-8 p-6'>
                 <h3 className='text-[#001931] font-semibold text-2xl mb-3'>Description</h3>
                 <p className='text-xl text-[#627382]'>{app.description}</p>
             </div>
