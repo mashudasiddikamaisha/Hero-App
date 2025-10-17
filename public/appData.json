@@ -1,6 +1,6 @@
 [
   {
-    "image": "./images/demo-app (1).webp",
+    "image": "/images/demo1.jpg",
     "title": "TaskMaster",
     "companyName": "Productive Inc.",
     "id": 1,
@@ -18,7 +18,7 @@
     ]
   },
   {
-    "image": "./images/demo-app (2).webp",
+    "image": "/images/demo2.jpg",
     "title": "FitLife",
     "companyName": "Wellness Pro",
     "id": 2,
@@ -36,7 +36,7 @@
     ]
   },
   {
-    "image": "./images/demo-app (3).webp",
+    "image": "/images/demo3.jpg",
     "title": "SnapPic",
     "companyName": "Visual Studio",
     "id": 3,
@@ -54,7 +54,7 @@
     ]
   },
   {
-    "image": "./images/demo-app (4).webp",
+    "image": "/images/demo4.jpg",
     "title": "Learnify",
     "companyName": "EduTech Labs",
     "id": 4,
@@ -72,7 +72,7 @@
     ]
   },
   {
-    "image": "./images/demo-app (5).webp",
+    "image": "/images/demo5.jpg",
     "title": "TravelMate",
     "companyName": "Explore Inc.",
     "id": 5,
@@ -90,7 +90,7 @@
     ]
   },
   {
-    "image": "./images/demo-app (6).webp",
+    "image": "/images/demo6.jpg",
     "title": "NoteSync",
     "companyName": "CloudySoft",
     "id": 6,
@@ -108,7 +108,7 @@
     ]
   },
   {
-    "image": "./images/demo7.jpg",
+    "image": "/images/demo7.jpg",
     "title": "BudgetBuddy",
     "companyName": "FinanceX",
     "id": 7,
@@ -126,7 +126,7 @@
     ]
   },
   {
-    "image": "./images/demo8.jpg",
+    "image": "/images/demo8.jpg",
     "title": "GameZone",
     "companyName": "PlayWorks",
     "id": 8,
@@ -144,7 +144,7 @@
     ]
   },
   {
-    "image": "./images/demo9.jpg",
+    "image": "/images/demo9.jpg",
     "title": "CalmMind",
     "companyName": "Relax Inc.",
     "id": 9,
@@ -162,7 +162,7 @@
     ]
   },
   {
-    "image": "./images/demo10.jpg",
+    "image": "/images/demo10.jpg",
     "title": "FoodEase",
     "companyName": "Tasty Labs",
     "id": 10,
@@ -180,7 +180,7 @@
     ]
   },
   {
-    "image": "./images/demo11.jpg",
+    "image": "/images/demo11.jpg",
     "title": "LangLearn",
     "companyName": "Global Ed",
     "id": 11,
@@ -198,7 +198,7 @@
     ]
   },
   {
-    "image": "./images/demo12.jpg",
+    "image": "/images/demo12.jpg",
     "title": "ShopSmart",
     "companyName": "EcomX",
     "id": 12,
@@ -216,7 +216,7 @@
     ]
   },
   {
-    "image": "./images/demo13.jpg",
+    "image": "/images/demo13.jpg",
     "title": "HealthMate",
     "companyName": "MediCore",
     "id": 13,
@@ -234,7 +234,7 @@
     ]
   },
   {
-    "image": "./images/demo14.jpg",
+    "image": "/images/demo14.jpg",
     "title": "ReadOn",
     "companyName": "Bookly",
     "id": 14,
@@ -252,7 +252,7 @@
     ]
   },
   {
-    "image": "./images/demo15.jpg",
+    "image": "/images/demo15.jpg",
     "title": "Weatherly",
     "companyName": "SkyTech",
     "id": 15,
@@ -270,7 +270,7 @@
     ]
   },
   {
-    "image": "./images/demo16.jpg",
+    "image": "/images/demo16.jpg",
     "title": "QuickRide",
     "companyName": "GoFast",
     "id": 16,
@@ -288,7 +288,7 @@
     ]
   },
   {
-    "image": "./images/demo17.jpg",
+    "image": "/images/demo17.jpg",
     "title": "InstaPay",
     "companyName": "FinTechy",
     "id": 17,
@@ -306,7 +306,7 @@
     ]
   },
   {
-    "image": "./images/demo18.jpg",
+    "image": "/images/demo18.jpg",
     "title": "EcoSteps",
     "companyName": "GreenLife",
     "id": 18,
@@ -324,7 +324,7 @@
     ]
   },
   {
-    "image": "./images/demo19.jpg",
+    "image": "/images/demo19.jpg",
     "title": "PetCare",
     "companyName": "HappyPets",
     "id": 19,
@@ -342,7 +342,7 @@
     ]
   },
   {
-    "image": "./images/demo20.jpg",
+    "image": "/images/demo20.jpg",
     "title": "Eventify",
     "companyName": "SocialX",
     "id": 20,
