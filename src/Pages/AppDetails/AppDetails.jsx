@@ -7,7 +7,7 @@ import star from '../../assets/icon-ratings.png'
 import review from '../../assets/icon-review.png'
 import { Bar, BarChart, ResponsiveContainer, Tooltip, XAxis, YAxis } from 'recharts';
 import Loader from '../../Components/Loader/Loader';
-
+import appImg from '../../assets/App-Error.png'
 
 const AppDetails = () => {
 
@@ -32,9 +32,10 @@ const AppDetails = () => {
 
     if(!app) {
         return (
-            <div className='text-center py-20'>
-                <h2 className='font-semibold text-xl'>APP NOT FOUND</h2>
-                <p className='mt-2 text-gray-600'>The app you are expecting is not available</p>
+            <div className='flex flex-col justify-center items-center text-center py-20'>
+                <img src={appImg} alt="" />
+                <h2 className='font-bold text-3xl mt-4'>APP NOT FOUND</h2>
+                <p className='mt-2 text-gray-600'>The app you are looking for is not available</p>
             </div>
         )
     }
@@ -53,7 +54,7 @@ const AppDetails = () => {
 
     return (
         <div className='w-full bg-gray-100 min-h-screen mx-auto p-4 sm:p-6 lg:p-8 overflow-hidden break-words'>
-            <div className='flex flex-col lg:flex-row rounded-lg shadow-sm gap-6 p-6 mb-8 bg-white'>
+            <div className='flex flex-col lg:flex-row rounded-lg shadow-sm gap-6 p-6 mb-8'>
                 <img src={app.image} alt="" className='object-cover bg-gray-200 w-80 h-80' />
                 <div className='flex-1'>
                     <h2 className='font-bold text-[#001931] text-[32px]'>{app.title}</h2>
@@ -77,7 +78,7 @@ const AppDetails = () => {
                             <p className="font-extrabold text-[40px] text-[#001931]">{app.reviews.toLocaleString()}K</p>
                         </div>
                     </div>
-                    <button disabled={installedApp} onClick={handleInstalledApp} className={`text-white rounded-sm font-semibold text-xl px-5 py-2 transition ${installedApp ? "bg-gray-300 text-gray-700 cursor-not-allowed" : "bg-[#00D390] hover:bg-emerald-600"}`}>{installedApp ? "Installed" : `Install Now (${app.size})`} </button>
+                    <button disabled={installedApp} onClick={handleInstalledApp} className={`text-white rounded-sm font-semibold text-xl px-5 py-2 transition ${installedApp ? "bg-gray-300 text-gray-700 cursor-not-allowed" : "bg-[#00D390] hover:bg-emerald-600"}`}>{installedApp ? "Installed" : `Install Now (${app.size}MB)`} </button>
                 </div>
             </div>
 

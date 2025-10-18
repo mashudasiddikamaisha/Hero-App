@@ -66,7 +66,7 @@ const Installation = () => {
                                     <div className='flex flex-col flex-1 ml-4'>
                                         <h2 className='font-medium text-xl text-[#001931]'>{app.title}</h2>
                                         <p className='text-[16px] text-[#627382]'>{app.companyName}</p>
-                                        <div className='flex items-center text-[16px] gap-4 mt-1'>
+                                        <div className='flex flex-col lg:flex-row items-center text-[16px] gap-4 mt-1'>
                                             <span className='flex items-center gap-1 text-[#00D390] font-medium'> <img src={download} alt="" className='w-4 h-4' /> {app.downloads}M</span>
                                             <span className='flex items-center gap-1 text-[#FF8811] font-medium'> <img src={star} alt="" className='w-4 h-4' /> {app.ratingAvg}</span>
                                             <span className='flex items-center gap-1 text-[#627382]'> {app.size} MB</span>
