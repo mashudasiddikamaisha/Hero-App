@@ -20,15 +20,19 @@ const storeInstalledApp = (app) => {
       image: app.image,
       downloads: app.downloads,
       companyName: app.companyName,
+      description: app.description,
+      size: app.size,
+      reviews: app.reviews,
+      ratingAvg: app.ratingAvg,
+      ratings: app.ratings
+
     });   
     localStorage.setItem("app_installed", JSON.stringify(currentApp));
   }
 }
 
 
-const isInstalled = (id) => {
-    getInstalledApps().some((app) => app.id === id)
-}
+const isInstalled = (id) =>  getInstalledApps().some((app) => app.id === id);
 
 
 const uninstallApp = (id) => {

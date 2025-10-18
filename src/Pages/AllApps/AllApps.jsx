@@ -2,6 +2,7 @@ import React, { useEffect, useState } from 'react';
 import { useLoaderData, useNavigate } from 'react-router';
 import downloadImg from '../../assets/icon-downloads.png'
 import star from '../../assets/icon-ratings.png'
+import Loader from '../../Components/Loader/Loader';
 
 const AllApps = () => {
 
@@ -9,7 +10,6 @@ const AllApps = () => {
     const navigate = useNavigate();
     
     const [allApps, setAllApps] = useState([]);
-    // const [sort, setSort] = useState('');
     const [search, setSearch] = useState('');
     const [searchLoading, setSearchLoading] = useState(false);
 
@@ -23,57 +23,36 @@ const AllApps = () => {
         setSearchLoading(true);
         const time = setTimeout(() => {
             let res = (data || []).filter((app) => app.title.toLowerCase().includes(search.toLocaleLowerCase()));
-            // if(sort === "low-high") {
-            //     res = [...res].sort((a, b) => a.downloads - b.downloads)
-            // }
-            // if(sort === "high-low") {
-            //     res = [...res].sort((a, b) => b.downloads - a.downloads)
-            // }
-
             setAllApps(res);
-            setSearchLoading(false);
-            
+            setSearchLoading(false);            
         }, 200);
         return () => clearTimeout(time);
     }, [search, data]);
 
     if(!data) {
-        return "loading";
+        return <Loader></Loader>;
     }
 
     return (
         <div className='max-w-7xl mx-auto p-7'>
-            {/* <div className='flex justify-between items-center flex-col md:flex-row lg:flex-row mb-6'> */}
                 <div className='text-center p-4'>
                     <h1 className='font-bold text-5xl text-[#001931] mb-4'>Our All Applications</h1>
                     <p className='text-xl text-[#627382]'>Explore All Apps on the Market developed by us. We code for Millions</p>
                 </div>
                 <div className='flex justify-between items-center gap-3 mb-6 flex-col sm:flex-row'>
                     <p className='font-semibold text-2xl text-[#001931]'>({allApps.length}) Apps Found</p>
-                    {/* <input type="text" placeholder='search' /> */}
                     <input value={search} onChange={(e)=> setSearch(e.target.value)} placeholder='Search Apps' className='border rounded p-3 w-full sm:w-64' />
                 </div>
 
-                <div className='flex items-center gap-4 mt-3 md:mt-0'>
-                    {/* <select value={sort} onChange={(e) => setSort(e.target.value)} className='border rounded p-3'>
-                        <option value="">Sort By Downloads</option>
-                        <option value="high-low">High-Low</option>
-                        <option value="low-high">Low-High</option>
-                    </select> */}
-                    {/* <input value={search} onChange={(e)=> setSearch(e.target.value)} placeholder='Search Apps...' className='border rounded p-3' /> */}
-                </div>
-            {/* </div> */}
-
             {
                 searchLoading && (
-                    <div className='mb-6'>Loading...</div>
+                    <div className='mb-6'><Loader></Loader></div>
                 )
             }
 
             {
                 allApps.length === 0 ? (<div className='grid grid-cols-1 items-center'>
                     <p className='text-center bg-white text-gray-800 rounded shadow p-8'>No App Found</p>
-                    {/* <button onClick={setSearch('')} className='font-semibold text-[16px] rounded-lg btn text-white bg-gradient-to-r from-[#632EE3] to-[#9F62F2] h-20 w-20 items-center'>Show All</button> */}
 
                     </div>) : (
                     <div className='grid grid-cols-2 lg:grid-cols-4 gap-6'>

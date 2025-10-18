@@ -5,6 +5,7 @@ import { useLoaderData } from 'react-router';
 import { useNavigate } from 'react-router';
 import download from '../../assets/icon-downloads.png'
 import star from '../../assets/icon-ratings.png'
+import Loader from '../../Components/Loader/Loader';
 
 
 const Home = () => {
@@ -20,7 +21,7 @@ const Home = () => {
     }, [data]);
     
     if(!data) {
-        return "loading";
+        return <Loader></Loader>;
     }
 
     return (
